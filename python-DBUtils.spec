@@ -10,7 +10,7 @@ Source0:	http://www.webwareforpython.org/downloads/DBUtils/%{module}-%{version}.
 # Source0-md5:	aa13d60db0377234c5f9469212da5022
 URL:		http://www.webwareforpython.org/DBUtils
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
